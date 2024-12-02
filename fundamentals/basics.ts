@@ -88,4 +88,6 @@ function insertAtLast<T>(array: T[], value: T) {
 const nextArray = insertAtLast(deomArray, 4);
 const stringArray = insertAtLast(["a", "b", "c"], "d");
 
-nextArray[0].split(""); // now it fuckin shows the error
+nextArray[0].split(""); // now it fuckin shows the error now
+stringArray[0].split(""); // and here's no error, coz ts know it's a array of string
+// this is how we can use function that can take different types,but also allows ts to know what type of arguments are passed
