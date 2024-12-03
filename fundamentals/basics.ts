@@ -1,6 +1,6 @@
 //primitives,complex, functions types and parameters
 
-let age: number = 12; //note: nukmber not Number, similarly string not String and so on....
+let age: number = 12; //note: number not Number, similarly string not String and so on....
 age = 12;
 
 let userName: string;
